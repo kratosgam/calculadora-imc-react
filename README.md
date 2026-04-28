@@ -1,16 +1,94 @@
-# React + Vite
+# Calculadora de Imc 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Uma aplicação web moderna e intuitiva desenvolvida para calcular o Índice de Massa Corporal (IMC). Este projeto foi construído para praticar conceitos fundamentais do React, como manipulação de estados, eventos de formulário e renderização condicional.
 
-Currently, two official plugins are available:
+## Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A Calculadora de IMC permite que o usuário insira seu peso e altura para obter automaticamente o cálculo do IMC, juntamente com a classificação correspondente.
 
-## React Compiler
+## Formulario de ImC
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+IMC = peso (kg) / (altura × altura)
 
-## Expanding the ESLint configuration
+## Tecninologia utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React.js: Biblioteca principal para a interface.
+
+Hooks (useState): Gerenciamento de estado dos inputs e do resultado.
+
+JavaScript (ES6+): Lógica de cálculo e manipulação de arrays.
+
+CSS3: Estilização baseada em Flexbox para garantir responsividade.
+
+## Previum
+
+
+## Instruções de instalação 
+
+1.Clone este repositório:
+
+```bash```
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+
+2.Entre na pasta do projeto
+
+```bash```
+cd NOME-DO-REPOSITORIO
+
+3.Instale as dependências:
+
+```bash```
+npm install
+
+4.Para conseguir roda o projeto no computador:
+
+```bash```
+npm run dev 
+
+## Pre-requisitos 
+
+node 16
+npm e yarm
+
+## Como contribuir 
+
+1.Fork o projeto: Clique no botão "Fork" no topo superior direito desta página para criar uma cópia do repositório na sua conta.
+
+2. Clone o seu Fork:
+
+```bash```
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+
+3. Crie uma Branch para sua modificação:
+
+```bash```
+git checkout -b feature/nova-funcionalidade
+
+4. Faça o Commit das suas alterações:
+
+```bash```
+git commit -m "feat: Adicionada nova funcionalidade X"
+
+5. Envie para o seu repositório (Push):
+
+```bash```
+git push origin feature/nova-funcionalidade
+
+6.Abra um Pull Request: Vá até o repositório original onde você fez o Fork e clique no botão verde "Compare & pull request". 
+Descreva o que você mudou e envie para análise!
+
+## Melhorias futuras 
+
+.Tema dark/light
+.Histórico de cálculos
+.Melhor validação de inputs
+.Animações na interface
+
+## lincença
+
+Este projeto está sob a licença MIT.
+Sinta-se livre para usar e modificar.
+
+## autor
+
+Desenvolvido por kayo Matheus 
